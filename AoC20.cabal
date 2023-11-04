@@ -33,6 +33,7 @@ library
       Day6
       Day7
       Day8
+      Day9
   other-modules:
       Paths_AoC20
   autogen-modules:
@@ -46,6 +47,7 @@ library
     , parsec
     , regex-tdfa
     , split
+    , transformers
   default-language: Haskell2010
 
 executable AoC20-exe
@@ -64,6 +66,7 @@ executable AoC20-exe
     , parsec
     , regex-tdfa
     , split
+    , transformers
   default-language: Haskell2010
 
 test-suite AoC20-test
@@ -83,4 +86,5 @@ test-suite AoC20-test
     , parsec
     , regex-tdfa
     , split
+    , transformers
   default-language: Haskell2010
