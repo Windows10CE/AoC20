@@ -10,6 +10,7 @@ import Day6
 import Day7
 import Day8
 import Day9
+import Day10
 
 main :: IO ()
 main = do
@@ -24,5 +25,6 @@ main = do
     ["7"] -> day7
     ["8"] -> day8
     ["9"] -> day9
+    ["10"] -> day10
     _ -> error "no day"
   putStrLn res
